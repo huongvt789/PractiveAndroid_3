@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.huongtlu.thuchanh_three.ImplicitActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/text0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="29sp"
+        android:textColor="#ff00"
+        android:text="Demo Implicit Intent" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gọi điện" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnOpenWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mở web tlu" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gửi SMS" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnOpenMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mở maps" />
+
+
+</LinearLayout>

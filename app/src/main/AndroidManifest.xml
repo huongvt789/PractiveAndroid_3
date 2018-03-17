@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huongtlu.thuchanh_three">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ImplicitActivity"
+            android:label="@string/title_activity_main__all_"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main_All_Activity" />
+        <activity android:name=".recive_Activity" />
+        <activity android:name=".ExplicitActivity" />
+        <activity android:name=".recive2_Activity" />
+        <activity android:name=".Start_Activity" />
+        <activity android:name=".Edit_AllActivity"></activity>
+    </application>
+</manifest>
